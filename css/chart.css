@@ -1,0 +1,21 @@
+.ct-chart{
+margin:0 0 0 0;
+margin-left:-17px;
+}
+.ct-grid{
+  stroke:none;
+}
+.ct-area{
+  fill-opacity:.6;
+}
+.ct-series-c .ct-area, .ct-series-c .ct-slice-pie {
+    fill: lightgrey;
+}
+.ct-series-a .ct-area, .ct-series-a .ct-slice-pie {
+    fill:#ff3d00;
+    fill-opacity:.3;
+}
+.ct-series-b .ct-area, .ct-series-b .ct-slice-pie {
+    fill: #ff1744;
+    fill-opacity:.8;
+}

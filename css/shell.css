@@ -1,0 +1,14 @@
+.shell{
+  font-family:Monaco;
+  font-size:13px;
+  padding-bottom:30px;
+  line-height: 20px;
+}
+.blink {
+  font-weight:bolder;
+  font-family: Arial;
+  animation: blinker .8s linear infinite;
+}
+@keyframes blinker {
+  50% { opacity: 0.0; }
+}
