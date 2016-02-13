@@ -30,6 +30,10 @@ python -m SimpleHTTPServer
 ```
 
 Now just go to [http://localhost:8000](http://localhost:8000)
+
+###Live demo
+[https://720kb.github.io/hubuntu-ui/](https://720kb.github.io/hubuntu-ui/)
+
 ###Theming
 For any changes to the theme please look at the materialize.css [documentation](http://materializecss.com/).
 
