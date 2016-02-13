@@ -81,6 +81,7 @@ header, main, footer {
   font-weight: 500;
   line-height: 55px;
   margin: 0;
+  color: rgba(0, 0, 0, 0.87);
 }
 .card-header{
   margin-top:0;
