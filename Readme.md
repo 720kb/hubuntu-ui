@@ -1,4 +1,4 @@
-####Hubuntu-ui
+####Hubuntu UI
 
 <br>
 ![Ubuntu-material-dashboard-admin](http://i.imgur.com/HtL6qUq.png)
@@ -6,12 +6,26 @@
 Hubuntu-ui is a Material Ubuntu style very basic starter template for admin dashboards (materialize.css).
 
 The hubuntu-ui is developed by [720kb](http://720kb.net).
-###Installation
 
-##Theming
+###Run it
+
+```bash
+git clone ...
+```
+
+```bash
+cd hubuntu-ui/
+```
+
+```bash
+python -m SimpleHTTPServer
+```
+
+Now just go to [http://localhost:8000](http://localhost:8000)
+###Theming
 For any changes to the theme please look at the materialize.css [documentation](http://materializecss.com/).
 
-##Contributing
+###Contributing
 
 We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
