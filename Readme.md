@@ -9,7 +9,8 @@ The hubuntu-ui is developed by [720kb](http://720kb.net).
 
 ###Requirements
  
-You need [bower](http://bower.io/) installed on your pc.
+You need [Bower](http://bower.io/) installed on your pc.
+
 ###Run it
 
 ```bash
