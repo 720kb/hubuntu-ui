@@ -14,7 +14,7 @@ You need [Bower](http://bower.io/) installed on your pc.
 ###Run it
 
 ```bash
-git clone ...
+git clone git@github.com:720kb/hubuntu-ui.git hubuntu-ui
 ```
 
 ```bash
