@@ -7,7 +7,7 @@ Hubuntu-ui is a Material Ubuntu style very basic starter template for admin dash
 
 The hubuntu-ui is developed by [720kb](http://720kb.net).
 
-###Dependencies
+###Requirements
  
 You need [bower](http://bower.io/) installed on your pc.
 ###Run it
