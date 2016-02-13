@@ -34,6 +34,18 @@ Now just go to [http://localhost:8000](http://localhost:8000)
 ###Live demo
 [https://720kb.github.io/hubuntu-ui/](https://720kb.github.io/hubuntu-ui/)
 
+##Using Sass
+A Sass version of hubuntu-ui is included for convenience.  To generate a compiled css version of hubuntu simply run:
+ 
+```bash
+node-sass sass/hubuntu.scss css/main.css
+```
+To test the compiled sass version remove all the style tags in the sample index.html and replace them with:
+
+```
+<link href="css/main.css" type="text/css" rel="stylesheet" media="screen, projection">
+```
+
 ###Theming
 For any changes to the theme please look at the materialize.css [documentation](http://materializecss.com/).
 
