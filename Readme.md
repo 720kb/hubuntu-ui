@@ -1,7 +1,7 @@
 ####Hubuntu-ui
 
 <br>
-![Ubuntu-material-dashboard-admin](http://i.imgur.com/EK2N7p8.png)
+![Ubuntu-material-dashboard-admin](http://i.imgur.com/HtL6qUq.png)
 
 Hubuntu-ui is a Material Ubuntu style very basic starter template for admin dashboards (materialize.css).
 
