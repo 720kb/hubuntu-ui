@@ -1,8 +1,10 @@
 .shell{
   font-family:Monaco;
   font-size:13px;
+  padding-top:30px;
   padding-bottom:30px;
   line-height: 20px;
+  margin-top:10vmin;
 }
 .blink {
   font-weight:bolder;
