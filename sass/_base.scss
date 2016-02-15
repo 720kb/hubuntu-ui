@@ -1,7 +1,6 @@
 html {
   font-family: 'Ubuntu', sans-serif;
 }
-
 header, main, footer {
   padding-left: 240px;
 }
@@ -31,13 +30,4 @@ header, main, footer {
   padding: 2%;
   line-height: 54px;
   text-align: center;
-}
-
-@media only screen and (max-width: 992px) {
-  header, main, footer {
-    padding-left: 0;
-  }
-  .brand-logo.page-title{
-    padding:inherit;
-  }
 }

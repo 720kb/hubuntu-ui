@@ -12,7 +12,3 @@
   font-family: Arial;
   animation: blinker .8s linear infinite;
 }
-
-@keyframes blinker {
-  50% { opacity: 0.0; }
-}
