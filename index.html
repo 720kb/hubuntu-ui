@@ -9,8 +9,6 @@
   <link href="bower_components/Materialize/dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="bower_components/chartist/dist/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/shell.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/chart.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -235,10 +233,20 @@
     </div>
   </main>
   <main>
-    <div class="content shell grey darken-4">
-      <div>
-        <h6 class="red-text text-accent-3">HUBUNTU SHELL v1.0.2</h6>
+    <div id="shell" class="shell">
+      <div class="shell-header">
+        <a href="#" class="deep-orange black-text">
+          <i class="material-icons">clear</i>
+        </a>
+        <a class="grey darken-2 black-text" href="#">
+          <i class="material-icons">remove</i>
+        </a>
+        <a class="grey darken-2 black-text" href="#">
+          <i class="material-icons">crop_square</i>
+        </a>
       </div>
+      <div class="shell-content">
+        <h6 class="red-text text-accent-3">HUBUNTU SHELL v1.0.2</h6>
       <div class="white-text text-lighten-3">
         Welcome back Jeremy!
       </div>
@@ -252,8 +260,14 @@
       <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">bower install</span></div>
       <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">python -m SimpleHTTPServer</span> <span class="blink white-text">|</span></div>
     </div>
+    </div>
   </main>
   </div>
+    <div class="fixed-action-btn">
+     <a href="#shell" class="btn-floating btn-large pink darken-4">
+       <i class="large white-text material-icons">code</i>
+     </a>
+   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
   <script src="bower_components/chartist/dist/chartist.min.js"></script>
   <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
