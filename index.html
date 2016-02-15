@@ -4,13 +4,11 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
-  <title>Hubuntu - material admin ubuntu like template</title>
+  <title>Hubuntu - material admin dashboard Ubuntu like starter template</title>
   <link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700italic,700,500italic,500,400italic,300,300italic' rel='stylesheet' type='text/css'>
   <link href="bower_components/Materialize/dist/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="bower_components/chartist/dist/chartist.min.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/shell.css" type="text/css" rel="stylesheet" media="screen,projection">
-  <link href="css/chart.css" type="text/css" rel="stylesheet" media="screen,projection">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
@@ -31,254 +29,291 @@
       </div>
     </div>
   </div>
-</div>
-<header>
-  <nav class="pink darken-4">
-    <div class="nav-wrapper">
-      <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
-        <i class="mdi-navigation-menu"></i>
-      </a>
-      <span href="#" class="brand-logo page-title">
-        <img src="img/logo.png" width="160"/>
-      </span>
-      <ul class="right hide-on-med-and-down">
-        <li>
-          <a href="#">
-            <span class="nav-badge">3</span>
-            <i class="material-icons">chat_bubble</i>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <i class="material-icons">settings</i>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <ul id="nav-mobile" class="side-nav custom-side-nav fixed">
-    <li class="grey darken-4">
-      <div class="user">
-        <div class="chip grey darken-3 white-text">
-          <img src="http://blogs-images.forbes.com/jasonevangelho/files/2013/03/Linus-Torvalds.jpg" alt="Contact Person">
-          Jeremy Lean
-        </div>
+  <div class="page hide">
+  <header>
+    <nav class="pink darken-4">
+      <div class="nav-wrapper">
+        <a href="#" data-activates="nav-mobile" class="button-collapse top-nav full hide-on-large-only">
+          <i class="mdi-navigation-menu"></i>
+        </a>
+        <span href="#" class="brand-logo page-title">
+          <img src="img/logo.png" width="160"/>
+        </span>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#">
+              <span class="nav-badge">3</span>
+              <i class="material-icons">chat_bubble</i>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <i class="material-icons">settings</i>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="tooltipped" data-position="left" data-delay="50" data-tooltip="Logout">
+              <i class="material-icons">exit_to_app</i>
+            </a>
+          </li>
+        </ul>
       </div>
-    </li>
-    <li>
-      <a class="grey white-text darken-3 waves-effect waves-grey">
-        <i class="material-icons deep-orange-text">airplay</i>
-        <span>Dashboard</span>
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">perm_identity</i>
-        <span class="badge deep-orange darken-1 white-text">33</span> Users
-      </a>
-    </li>
-
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">clear_all</i>
-        Reports
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">trending_up</i>
-        Analytics
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">layers</i>
-        Servers
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">storage</i>
-        Database
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">public</i>
-        Domains
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">cloud_queue</i>
-        Network
-      </a>
-    </li>
-
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">notifications_none</i>
-        Alerts
-      </a>
-    </li>
-    <li>
-      <a class="waves-effect waves-grey">
-        <i class="material-icons">message</i>
-        Messages
-      </a>
-    </li>
-  </ul>
-</header>
-<main>
-  <div class="breadcramb grey lighten-3">
-    <h6>
-      Dashboard
-    </h6>
-  </div>
-  <div class="card card-header">
-    <div class="card-content">
-      <span class="card-title black-text">
-        Visitors
-      </span>
-      <div class="ct-chart"></div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m6 l3">
-      <div class="card">
-        <div class="card-content black-text">
-          <p ><i class="mdi-social-group-add"></i> New Users</p>
-          <h4 class="card-stats-number">56.000</h4>
-          <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 15% <span class="deep-orange-text text-lighten-2">from yesterday</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m6 l3">
-      <div class="card">
-        <div class="card-content black-text">
-          <p ><i class="mdi-editor-attach-money"></i>Total Sales</p>
-          <h4 class="card-stats-number">$1990.63</h4>
-          <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 70% <span class="deep-orange-text text-lighten-2">last month</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m6 l3">
-      <div class="card">
-        <div class="card-content black-text">
-          <p ><i class="mdi-action-trending-up"></i> Your Profit</p>
-          <h4 class="card-stats-number">$500.52</h4>
-          <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 80% <span class="deep-orange-text text-lighten-2">from yesterday</span>
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="col s12 m6 l3">
-      <div class="card">
-        <div class="card-content black-text">
-          <p ><i class="mdi-editor-insert-drive-file"></i> New Requests</p>
-          <h4 class="card-stats-number">25</h4>
-          <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-down"></i> 3% <span class="deep-orange-text text-lighten-2">from last month</span>
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col s12 m12 l6">
-      <ul id="projects-collection" class="collection">
-        <li class="collection-item avatar">
-          <i class="material-icons circle pink darken-4">clear_all</i>
-          <span class="collection-header">System Process</span>
-          <p>
-            Queued
-          </p>
-          <a href="#" class="secondary-content">
-            <i class="material-icons grey-text">refresh</i>
-          </a>
-        </li>
-        <li class="collection-item">
-          <small>Checking queue</small>
-          <div class="progress grey lighten-3">
-            <div class="indeterminate grey"></div>
+    </nav>
+    <ul id="nav-mobile" class="side-nav custom-side-nav fixed">
+      <li class="grey darken-4">
+        <div class="user">
+          <div class="chip grey darken-3 white-text">
+            <img src="http://blogs-images.forbes.com/jasonevangelho/files/2013/03/Linus-Torvalds.jpg" alt="Contact Person">
+            Jeremy Lean
           </div>
-        </li>
-      </ul>
+        </div>
+      </li>
+      <li>
+        <a class="grey white-text darken-3 waves-effect waves-grey">
+          <i class="material-icons deep-orange-text">airplay</i>
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">perm_identity</i>
+          <span class="badge deep-orange darken-1 white-text">33</span> Users
+        </a>
+      </li>
+
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">clear_all</i>
+          Reports
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">trending_up</i>
+          Analytics
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">layers</i>
+          Servers
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">storage</i>
+          Database
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">public</i>
+          Domains
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">cloud_queue</i>
+          Network
+        </a>
+      </li>
+
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">notifications_none</i>
+          Alerts
+        </a>
+      </li>
+      <li>
+        <a class="waves-effect waves-grey">
+          <i class="material-icons">message</i>
+          Messages
+        </a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div class="breadcrumb grey lighten-3">
+      <h6>
+        Dashboard
+      </h6>
     </div>
-    <div class="col s12 m12 l6">
-      <ul id="projects-collection" class="collection">
-        <li class="collection-item avatar">
-          <i class="material-icons circle pink darken-4">bug_report</i>
-          <span class="collection-header">Issues</span>
-          <p>
-            <span class="pink-text darken-text-4">4</span>
-            Detected
-          </p>
-          <a href="#" class="secondary-content">
-            <i class="material-icons grey-text">refresh</i>
-          </a>
-        </li>
-        <li class="collection-item">
-          <small>Tracking issues</small>
-          <div class="progress grey lighten-3">
-            <div class="indeterminate grey"></div>
+    <div class="card card-header">
+      <div class="card-content">
+        <span class="card-title black-text">
+          Visitors
+        </span>
+        <div class="ct-chart"></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-content black-text">
+            <p ><i class="mdi-social-group-add"></i> New Users</p>
+            <h4 class="card-stats-number">56.000</h4>
+            <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 15% <span class="deep-orange-text text-lighten-2">from yesterday</span>
+            </p>
           </div>
-        </li>
-      </ul>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-content black-text">
+            <p ><i class="mdi-editor-attach-money"></i>Total Sales</p>
+            <h4 class="card-stats-number">$1990.63</h4>
+            <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 70% <span class="deep-orange-text text-lighten-2">last month</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-content black-text">
+            <p ><i class="mdi-action-trending-up"></i> Your Profit</p>
+            <h4 class="card-stats-number">$500.52</h4>
+            <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-up"></i> 80% <span class="deep-orange-text text-lighten-2">from yesterday</span>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m6 l3">
+        <div class="card">
+          <div class="card-content black-text">
+            <p ><i class="mdi-editor-insert-drive-file"></i> New Requests</p>
+            <h4 class="card-stats-number">25</h4>
+            <p class="card-stats-compare"><i class="mdi-hardware-keyboard-arrow-down"></i> 3% <span class="deep-orange-text text-lighten-2">from last month</span>
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="row">
+      <div class="col s12 m12 l6">
+        <ul id="projects-collection" class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle pink darken-4">clear_all</i>
+            <span class="collection-header">System Process</span>
+            <p>
+              Queued
+            </p>
+            <a href="#" class="secondary-content">
+              <i class="material-icons grey-text">refresh</i>
+            </a>
+          </li>
+          <li class="collection-item">
+            <small>Checking queue</small>
+            <div class="progress grey lighten-3">
+              <div class="indeterminate grey"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col s12 m12 l6">
+        <ul id="projects-collection" class="collection">
+          <li class="collection-item avatar">
+            <i class="material-icons circle pink darken-4">bug_report</i>
+            <span class="collection-header">Issues</span>
+            <p>
+              <span class="pink-text darken-text-4">4</span>
+              Detected
+            </p>
+            <a href="#" class="secondary-content">
+              <i class="material-icons grey-text">refresh</i>
+            </a>
+          </li>
+          <li class="collection-item">
+            <small>Tracking issues</small>
+            <div class="progress grey lighten-3">
+              <div class="indeterminate grey"></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </main>
+  <main>
+    <div id="shell" class="shell">
+      <div class="shell-header">
+        <a href="#" class="deep-orange black-text">
+          <i class="material-icons">clear</i>
+        </a>
+        <a class="grey darken-2 black-text" href="#">
+          <i class="material-icons">remove</i>
+        </a>
+        <a class="grey darken-2 black-text" href="#">
+          <i class="material-icons">crop_square</i>
+        </a>
+      </div>
+      <div class="shell-content">
+        <h6 class="red-text text-accent-3">HUBUNTU SHELL v1.0.2</h6>
+      <div class="white-text text-lighten-3">
+        Welcome back Jeremy!
+      </div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$</div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ sudo</div>
+      <div class="deep-orange-text text-accent-1">Your password:</div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4"> ls -la</span></div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">usr/ bin/ etc/ var/ .git .gitignore</span></div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">git clone git@github.com:720kb/hubuntu-ui.git hubuntu-ui</span></div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">cd hubuntu-ui/</span></div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">bower install</span></div>
+      <div class="deep-orange-text text-accent-1">host01:jeremy root$ <span class="deep-orange-text text-lighten-4">python -m SimpleHTTPServer</span> <span class="blink white-text">|</span></div>
+    </div>
+    </div>
+  </main>
   </div>
-</main>
-<main>
-  <div class="content shell grey darken-4">
-    <div>
-      <h6 class="red-text text-accent-3">HUBUNTU SHELL v1.0.2</h6>
-    </div>
-    <div class="white-text text-lighten-3">
-      Welcome back!
-    </div>
-    <div class="deep-orange-text text-accent-1">host01:themeforest root$</div>
-    <div class="deep-orange-text text-accent-1">host01:themeforest root$ sudo</div>
-    <div class="deep-orange-text text-accent-1">Your password:</div>
-    <div class="deep-orange-text text-accent-1">host01:themeforest root$ <span class="deep-orange-text text-lighten-4"> ls -la</span></div>
-    <div class="deep-orange-text text-accent-1">host01:themeforest root$ <span class="deep-orange-text text-lighten-4">usr/ bin/ etc/ var/ .git .gitignore</span></div>
-    <div class="deep-orange-text text-accent-1">host01:themeforest root$ <span class="deep-orange-text text-lighten-4">bower install materialize --save</span> <span class="blink white-text">|</span></div>
-  </div>
-</main>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
-<script src="bower_components/chartist/dist/chartist.min.js"></script>
-<script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
-<script type="text/javascript">
-(function () {
-
-  $(".button-collapse").sideNav();
-  $('.loading img').fadeIn(600).removeClass('hide');
-
-  window.setTimeout(function () {
-
-    $('.loading').fadeOut(1000);
-  }, 3200);
-
-  new Chartist.Line('.ct-chart', {
-    labels:[1,2,3,4],
-    series: [
-      [10, 9, 16, 1, 6, 10, 5, 10],
-      [13, 2, 10, 6, 17, 2, 11, 4],
-      [2, 15, 13, 1, 1, 5, 18, 10]
-    ]
-  }, {
-    high:18,
-    height:220,
-    low:0,
-    showArea: true,
-    showLine: false,
-    showPoint: false,
-    axisX: {
-      showLabel: false,
-      showGrid: false
-    }
-  });
-})();
-</script>
+    <div class="fixed-action-btn">
+     <a href="#shell" class="btn-floating btn-large pink darken-4">
+       <i class="large white-text material-icons">code</i>
+     </a>
+   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+  <script src="bower_components/chartist/dist/chartist.min.js"></script>
+  <script type="text/javascript" src="bower_components/Materialize/dist/js/materialize.min.js"></script>
+  <script type="text/javascript">
+  (function () {
+    //buttons
+    $(".button-collapse").sideNav();
+    //loader and loading
+    $('.loading img').fadeIn(600).removeClass('hide');
+    //boot
+    var bootTimeout = window.setTimeout(function setBootTimeout() {
+      //chart
+      new Chartist.Line('.ct-chart', {
+        labels:[1,2,3,4],
+        series: [
+          [10, 9, 16, 1, 6, 10, 5, 10],
+          [13, 2, 10, 6, 17, 2, 11, 4],
+          [2, 15, 13, 1, 1, 5, 18, 10]
+        ]
+      }, {
+        high:18,
+        height:220,
+        low:0,
+        showArea: true,
+        showLine: false,
+        showPoint: false,
+        axisX: {
+          showLabel: false,
+          showGrid: false
+        }
+      });
+      $('.page').removeClass('hide');
+      $('.loading').fadeOut(1000);
+      window.clearTimeout(bootTimeout);
+    }, 2000)
+    , toastTimeout = window.setTimeout(function setToastTimeout() {
+      //Some toast
+      Materialize.toast('Welcome back Jeremy', 4000);
+      window.clearTimeout(toastTimeout);
+    }, 3000)
+    , secondToastTimeout = window.setTimeout(function setSecondToastTimeout() {
+      //Some toast
+      Materialize.toast('Hubuntu UI is available on &nbsp;<a class="deep-orange-text text-lighten-1" href="https://github.com/720kb/hubuntu-ui" target="_blank">Github</a>', 60000);
+      window.clearTimeout(secondToastTimeout);
+    }, 5000);
+  })();
+  </script>
 </body>
 </html>

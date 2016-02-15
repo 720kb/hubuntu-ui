@@ -1,0 +1,33 @@
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+header, main, footer {
+  padding-left: 240px;
+}
+
+.content {
+  padding: 1% 2%;
+}
+
+.brand-logo.page-title {
+  padding-left: 2%;
+  margin-top: 8px;
+}
+
+.nav-badge {
+  margin-left: -8px;
+  position: absolute;
+  line-height: 15px;
+  top: 8px;
+  font-size: 12px;
+  text-align: center;
+  border-radius: 3px;
+  padding: 1px 5px 1px 4px;
+  background: $shaded-black;
+}
+
+.user {
+  padding: 2%;
+  line-height: 54px;
+  text-align: center;
+}
