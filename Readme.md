@@ -28,13 +28,13 @@ bower install
 ```bash
 python -m SimpleHTTPServer
 ```
-_then go to_ http://localhost:8000
+then go to http://localhost:8000
 
-*With Gulp*
+****With Gulp****
 ```bash
 npm install && gulp serve
 ```
-_then go to_ http://localhost:8100
+then go to http://localhost:8100
 
 ###Live demo
 [https://720kb.github.io/hubuntu-ui/](https://720kb.github.io/hubuntu-ui/)
