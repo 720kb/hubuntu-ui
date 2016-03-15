@@ -11,7 +11,7 @@ The Hubuntu UI is developed by [720kb](http://720kb.net).
  
 You need [Bower](http://bower.io/) installed on your pc.
 
-###Run it
+###Install
 
 ```bash
 git clone git@github.com:720kb/hubuntu-ui.git hubuntu-ui
@@ -24,10 +24,17 @@ cd hubuntu-ui/
 ```bash
 bower install
 ```
-
+###Run it
 ```bash
 python -m SimpleHTTPServer
 ```
+then go to http://localhost:8000
+
+With Gulp
+```bash
+npm install && gulp serve
+```
+then go to http://localhost:8100
 
 Now just go to [http://localhost:8000](http://localhost:8000)
 
