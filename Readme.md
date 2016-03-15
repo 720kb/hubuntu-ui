@@ -24,7 +24,7 @@ cd hubuntu-ui/
 ```bash
 bower install
 ```
-###npm
+####Npm
 
 ```bash
 npm install hubuntu-ui
