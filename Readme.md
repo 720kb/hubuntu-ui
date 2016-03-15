@@ -24,6 +24,16 @@ cd hubuntu-ui/
 ```bash
 bower install
 ```
+###npm
+
+```bash
+npm install hubuntu-ui
+```
+####Bower
+```bash
+bower install hubuntu-ui
+```
+
 ###Run it
 ```bash
 python -m SimpleHTTPServer
