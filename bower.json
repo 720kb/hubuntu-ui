@@ -7,7 +7,8 @@
   },
   "homepage": "https://github.com/720kb/hubuntu-ui",
   "authors": [
-    "720kb"
+    "720kb",
+    "http://720kb.net"
   ],
   "description": "Material Design Admin Dashboard Template, ubuntu Style.",
   "main": "",
