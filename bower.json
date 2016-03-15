@@ -1,8 +1,27 @@
 {
   "name": "hubuntu-ui",
-  "private": "true",
+  "version": "1.0.0",
   "dependencies": {
     "Materialize": "materialize#~0.97.1",
     "chartist": "~0.9.4"
-  }
+  },
+  "homepage": "https://github.com/720kb/hubuntu-ui",
+  "authors": [
+    "720kb"
+  ],
+  "description": "Material Design Admin Dashboard Template, ubuntu Style.",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "material",
+    "design",
+    "css",
+    "admin",
+    "dashboard",
+    "linux",
+    "ubuntu",
+    "style",
+    "template"
+  ],
+  "license": "MIT"
 }
