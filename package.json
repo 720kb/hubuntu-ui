@@ -1,0 +1,33 @@
+{
+  "name": "hubuntu-ui",
+  "version": "1.0.0",
+  "description": "Material Admin Dashboard Template, Ubuntu Style.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/720kb/hubuntu-ui.git"
+  },
+  "keywords": [
+    "material",
+    "css",
+    "design",
+    "template",
+    "dashboard",
+    "admin",
+    "ubuntu",
+    "style",
+    "linux"
+  ],
+  "author": "720kb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/720kb/hubuntu-ui/issues"
+  },
+  "homepage": "https://github.com/720kb/hubuntu-ui#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.11.1",
+    "connect-history-api-fallback": "^1.1.0",
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  }
+}
