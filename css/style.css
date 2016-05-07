@@ -1,3 +1,10 @@
+/*
+* Hubuntu UI
+* https://github.com/720kb/hubuntu-ui
+* brought to you by 720kb
+* Support 720kb.net
+* License - MIT
+*/
 html {
   font-family: 'Ubuntu', sans-serif; }
 
@@ -107,7 +114,7 @@ header, main, footer {
 
 .shell-header a i {
   font-size: 12.5px;
-  vertical-align: middle; }
+  vertical-align: text-bottom; }
 
 .shell {
   font-family: Monaco;
