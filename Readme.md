@@ -1,17 +1,18 @@
-####Hubuntu UI
+# Hubuntu UI
 
 <br>
+
 ![Ubuntu-material-dashboard-admin](http://i.imgur.com/HtL6qUq.png)
 
 Hubuntu UI is a Material _Ubuntu style_ , very basic , starter template for admin dashboards (materialize.css).
 
 The Hubuntu UI is developed by [720kb](http://720kb.net).
 
-###Requirements
+### Requirements
  
 You need [Bower](http://bower.io/) installed on your pc.
 
-###Install
+### Install
 
 ```bash
 git clone git@github.com:720kb/hubuntu-ui.git hubuntu-ui
@@ -24,17 +25,17 @@ cd hubuntu-ui/
 ```bash
 bower install
 ```
-####Npm
+#### npm
 
 ```bash
 npm install hubuntu-ui
 ```
-####Bower
+#### Bower
 ```bash
 bower install hubuntu-ui
 ```
 
-###Run it
+### Run it
 ```bash
 python -m SimpleHTTPServer
 ```
@@ -46,10 +47,11 @@ npm install && gulp serve
 ```
 then go to http://localhost:8100
 
-###Live demo
+### Live demo
+
 [https://720kb.github.io/hubuntu-ui/](https://720kb.github.io/hubuntu-ui/)
 
-###Sass
+### Sass
 A Sass version of Hubuntu UI is included for convenience.  
 To generate a compiled css version simply run:
  
@@ -62,15 +64,15 @@ To test the compiled Sass version remove all the style tags in the sample index.
 <link href="css/main.css" type="text/css" rel="stylesheet" media="screen, projection">
 ```
 
-###Theming
+### Theming
 For any changes to the theme please look at the materialize.css [documentation](http://materializecss.com/).
 
-###Contributing
+### Contributing
 
 We will be much grateful if you help us making this project to grow up.
 Feel free to contribute by forking, opening issues, pull requests etc.
 
-###License
+### License
 
 The MIT License (MIT)
 
